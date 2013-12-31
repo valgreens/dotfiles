@@ -16,6 +16,6 @@ ln -s $PWD/ctags ~/.ctags
 
 ok "Configurations linked properly"
 
-# git submodule update --init --recursive
-# ok "Submodules installed & updated"
+git submodule update --init --recursive
+ok "Submodules installed & updated"
 
