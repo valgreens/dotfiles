@@ -59,6 +59,5 @@ function server() {
 }
 
 function workcompile() {
-    cd ~/dev/isl-web-ui/src-js/app
     watchmedo shell-command --patterns="*.ts" --recursive --command='echo "\nCompiling..." && tsc $(find . -name "*.ts") && echo "Ok\n"'
 }
