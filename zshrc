@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 PATH=$PATH:/usr/local/sbin:/usr/local/share/npm/bin
-PATH=$PATH:/Users/valgreens/Downloads/adt-bundle-mac-x86_64-20131030/sdk/tools:/Users/valgreens/Downloads/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/valgreens/Downloads/apache-ant-1.9.2/bin
+PATH=$PATH:/usr/local/go/bin
 export PATH
 #export WORKON_HOME=$HOME/.virtualenvs PATH
 #source /usr/local/bin/virtualenvwrapper.sh
@@ -60,4 +60,8 @@ function server() {
 
 function workcompile() {
     watchmedo shell-command --patterns="*.ts" --recursive --command='echo "\nCompiling..." && tsc $(find . -name "*.ts") && echo "Ok\n"'
+}
+
+function home() {
+  cd ~&& clear
 }
