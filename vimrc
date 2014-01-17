@@ -22,8 +22,8 @@ set ls=2                        " status line always visible
 
 "let &t_Co=256
 set background=dark
-colors jellybeans
-"colorscheme TronLegacy
+"colors jellybeans
+colorscheme Tomorrow-Night
 set cursorline                  " highlight the line under the cursor
 set number
 
