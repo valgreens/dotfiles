@@ -13,3 +13,13 @@
   dump = cat-file -p
   lg = log --graph --decorate --relative-date --oneline
   lp = log --graph --pretty=format:'%C(cyan)%h%Creset - %C(bold yellow)%d%Creset %s %C(blue)(%ar) %C(magenta)%an%Creset' --all
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/valgreens/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
