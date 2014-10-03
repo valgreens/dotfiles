@@ -65,3 +65,10 @@ function workcompile() {
 function home() {
   cd ~&& clear
 }
+
+function 24i() {
+  cd ~/dev/24i/$1 && clear
+}
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
