@@ -151,3 +151,8 @@ let g:tagbar_type_typescript = {
         \ 'e:enums',
     \ ]
 \ }
+
+" ESLINT CHECKER
+let g:syntastic_javascript_eslint_exec = '/usr/local/bin/eslint'
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_args = "-c /Users/valverde/dev/24i/nubeox/public_html/eslint.json"
