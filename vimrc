@@ -22,7 +22,7 @@ set ls=2                        " status line always visible
 
 "let &t_Co=256
 set background=dark
-"colors jellybeans
+"colors OceanicNext
 colorscheme Tomorrow-Night
 set cursorline                  " highlight the line under the cursor
 set number
@@ -63,10 +63,10 @@ set autoindent                 " set on the auto-indent
 
 set noshowmode
 let g:airline_theme='tomorrow'
-let g:airline_enable_branch=1
+let g:airline#extensions#branch#enabled = 1
 "let g:airline_powerline_fonts=2
-let g:airline_detect_whitespace=1
 let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline#extensions#whitespace#enabled = 1
 
 " let g:airline#extensions#tabline#enabled = 2
 " let g:airline#extensions#tabline#fnamemod = ':t'
@@ -156,3 +156,5 @@ let g:tagbar_type_typescript = {
 let g:syntastic_javascript_eslint_exec = '/usr/local/bin/eslint'
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_args = "-c /Users/valverde/dev/24i/nubeox/public_html/eslint.json"
+" JSX SYNTAX
+let g:jsx_ext_required = 0

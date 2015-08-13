@@ -16,7 +16,7 @@
 [push]
 	default = matching
 [core]
-	excludesfile = /Users/valgreens/.gitignore_global
+	excludesfile = /Users/valverde/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

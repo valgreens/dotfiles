@@ -34,16 +34,16 @@ fi
 #
 # Create links
 #
-ln -s $PWD/vimrc ~/.vimrc 
-ln -s $PWD/vim ~/.vim 
-ln -s $PWD/zshrc ~/.zshrc 
-ln -s $PWD/gitconfig ~/.gitconfig 
-ln -s $PWD/tmux.conf ~/.tmux.conf 
-ln -s $PWD/tmuxinator ~/.tmuxinator 
-ln -s $PWD/ctags ~/.ctags 
+ln -s $PWD/vimrc ~/.vimrc
+ln -s $PWD/vim ~/.vim
+ln -s $PWD/zshrc ~/.zshrc
+ln -s $PWD/bash_aliases ~/.bash_aliases
+ln -s $PWD/gitconfig ~/.gitconfig
+ln -s $PWD/tmux.conf ~/.tmux.conf
+ln -s $PWD/tmuxinator ~/.tmuxinator
+ln -s $PWD/ctags ~/.ctags
 
 ok "Configurations linked properly"
 
 git submodule update --init --recursive
 ok "Submodules installed & updated"
-
