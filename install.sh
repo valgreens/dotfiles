@@ -47,7 +47,7 @@ fi
 
 # set up osx defaults
 #   maybe something else in here https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
-sh .osx
+# sh .osx
 
 #
 # Install vim fonts
