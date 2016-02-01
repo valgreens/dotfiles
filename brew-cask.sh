@@ -14,21 +14,20 @@ brew tap caskroom/versions
 brew cask install spectacle
 brew cask install dropbox
 brew cask install gyazo
-brew cask install onepassword
 brew cask install virtualbox
 brew cask install the-unarchiver
-brew cask install slack
 brew cask install skype
+brew cask install aerial
+brew cask install spotify
 
 # dev
 brew cask install iterm2
 brew cask install atom
 brew cask install transmit
+brew cask install dash
 
 # docker
-brew cask install boot2docker
-brew cask install docker-compose
-brew cask install docker-machine
+brew cask install dockertoolbox
 
 # browsers
 brew cask install google-chrome-canary
