@@ -36,6 +36,7 @@ brew install tmux
 brew install watchman
 brew install ansible
 brew install jq
+brew install wifi-password
 
 brew install pidcat   # colored logcat guy
 
