@@ -21,10 +21,10 @@ brew cask install aerial
 brew cask install spotify
 
 # dev
-brew cask install iterm2
-brew cask install atom
 brew cask install transmit
 brew cask install dash
+brew cask install hyper
+brew cask install visual-studio-code
 
 # docker
 brew cask install dockertoolbox
